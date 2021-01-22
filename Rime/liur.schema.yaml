@@ -99,7 +99,7 @@ translator:
   dictionary: liur.extended
   db_class: tabledb
   enable_user_dict: false
-  enable_sentence: false
+  enable_sentence: true
   enable_encoder: false
   enable_charset_filter: true
   encode_commit_history: false
@@ -119,9 +119,9 @@ fixed:
 
 mkst:
   __include: /translator
-  enable_sentence: true
+  enable_sentence: false
   prefix: ';'
-  tips: "〔造詞〕"
+  tips: "〔單字〕"
   tag: mkst
   initial_quality: 10
 
